@@ -1,0 +1,473 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Markdownの基本書式 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-forkmegithub/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="chapter4.html" />
+    
+    
+    <link rel="prev" href="chapter2.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="chapter1.html">
+            
+                <a href="chapter1.html">
+            
+                    
+                    マニュアルターゲット
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="chapter2.html">
+            
+                <a href="chapter2.html">
+            
+                    
+                    Markdownとは
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.4" data-path="chapter3.html">
+            
+                <a href="chapter3.html">
+            
+                    
+                    Markdownの基本書式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="chapter4.html">
+            
+                <a href="chapter4.html">
+            
+                    
+                    GFM(GitHub Flavored Markdown)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="chapter5.html">
+            
+                <a href="chapter5.html">
+            
+                    
+                    参考リンク
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >Markdownの基本書式</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="markdown&#x306E;&#x57FA;&#x672C;&#x66F8;&#x5F0F;">Markdown&#x306E;&#x57FA;&#x672C;&#x66F8;&#x5F0F;</h1>
+<hr>
+<h2 id="&#x6539;&#x884C;&#x3068;&#x6BB5;&#x843D;">&#x6539;&#x884C;&#x3068;&#x6BB5;&#x843D;</h2>
+<p>&#x7A7A;&#x767D;&#x884C;&#x306B;&#x66F8;&#x304F;&#x3053;&#x307E;&#x308C;&#x305F;&#x8907;&#x6570;&#x884C;&#x306E;&#x6587;&#x7AE0;&#x304C;&#x307E;&#x3068;&#x3081;&#x3066;1&#x3064;&#x306E;&#x6BB5;&#x843D;&#x3068;&#x3057;&#x3066;&#x6271;&#x308F;&#x308C;&#x307E;&#x3059;&#x3002;</p>
+<pre><code>1&#x6BB5;&#x843D;&#x76EE;
+
+2&#x6BB5;&#x843D;&#x76EE;
+</code></pre><blockquote>
+<p>&#x3053;&#x3053;&#x3067;&#x8A00;&#x3046;&#x7A7A;&#x767D;&#x884C;&#x306F;&#x7A7A;&#x767D;&#x306B;&#x898B;&#x3048;&#x308B;&#x884C;&#x3067;&#x3042;&#x308A;&#x3001;&#x30B9;&#x30DA;&#x30FC;&#x30B9;&#x3084;&#x30BF;&#x30D6;&#x3060;&#x3051;&#x306E;&#x884C;&#x3082;&#x7A7A;&#x767D;&#x306B;&#x542B;&#x307E;&#x308C;&#x307E;&#x3059;</p>
+</blockquote>
+<p>Markdown&#x3067;&#x6539;&#x884C;&#x3092;&#x884C;&#x3046;&#x5834;&#x5408;&#x306F;&#x884C;&#x672B;&#x306B;&#x30B9;&#x30DA;&#x30FC;&#x30B9;&#x3092;2&#x3064;&#x4EE5;&#x4E0A;&#x8A18;&#x8FF0;&#x3057;&#x307E;&#x3059;&#x3002;</p>
+<pre><code>1&#x884C;&#x76EE;&#xFF08;&#x898B;&#x3048;&#x306A;&#x3044;&#x3051;&#x3069;&#x30B9;&#x30DA;&#x30FC;&#x30B9;&#x304C;&#x3044;&#x307E;&#x3059;&#xFF09;  
+2&#x884C;&#x76EE;
+</code></pre><blockquote>
+<p>&#x9AD8;&#x6A5F;&#x80FD;&#x306A;&#x30C6;&#x30AD;&#x30B9;&#x30C8;&#x30A8;&#x30C7;&#x30A3;&#x30BF;&#x3092;&#x4F7F;&#x7528;&#x3057;&#x3066;&#x3044;&#x308B;&#x5834;&#x5408;&#x306F;&#x884C;&#x672B;&#x306E;&#x30B9;&#x30DA;&#x30FC;&#x30B9;&#x304C;&#x30D5;&#x30A1;&#x30A4;&#x30EB;&#x4FDD;&#x5B58;&#x6642;&#x306B;&#x81EA;&#x52D5;&#x524A;&#x9664;&#x3055;&#x308C;&#x308B;&#x5834;&#x5408;&#x304C;&#x3042;&#x308B;&#x306E;&#x3067;&#x6CE8;&#x610F;&#x3057;&#x3066;&#x304F;&#x3060;&#x3055;&#x3044;</p>
+</blockquote>
+<h2 id="&#x898B;&#x51FA;&#x3057;">&#x898B;&#x51FA;&#x3057;</h2>
+<h3 id="setext&#x5F62;&#x5F0F;">Setext&#x5F62;&#x5F0F;</h3>
+<p>&#x7B2C;1&#x30EC;&#x30D9;&#x30EB;&#x306E;&#x898B;&#x51FA;&#x3057;&#x306B;&quot;=&quot;&#x3001;&#x6B21;&#x306E;&#x30EC;&#x30D9;&#x30EB;&#x306E;&#x898B;&#x51FA;&#x3057;&#x306B;&quot;-&quot;&#x3092;&#x898B;&#x51FA;&#x3057;&#x3068;&#x3057;&#x305F;&#x3044;&#x6587;&#x7AE0;&#x306E;&#x6B21;&#x306E;&#x884C;&#x306B;&#x8A18;&#x8FF0;&#x3057;&#x307E;&#x3059;&#x3002;<br></p>
+<blockquote>
+<p>&quot;=&quot;&#x3068;&quot;-&quot;&#x306F;&#x9023;&#x7D9A;&#x3057;&#x3066;2&#x3064;&#x4EE5;&#x4E0A;&#x8A18;&#x8FF0;&#x3059;&#x308B;&#x5FC5;&#x8981;&#x304C;&#x3042;&#x308A;&#x307E;&#x3059;</p>
+</blockquote>
+<pre><code>&#x898B;&#x51FA;&#x3057;h1
+===
+
+&#x898B;&#x51FA;&#x3057;h2
+---
+</code></pre><h3 id="atx&#x5F62;&#x5F0F;">Atx&#x5F62;&#x5F0F;</h3>
+<p>&#x898B;&#x51FA;&#x3057;&#x306E;&#x884C;&#x982D;&#x306B;1&#x301C;6&#x3064;&#x306E;#&#x8A18;&#x53F7;&#x3092;&#x7528;&#x3044;&#x307E;&#x3059;&#x3002;#&#x306E;&#x6570;&#x304C;&#x898B;&#x51FA;&#x3057;&#x306E;&#x30EC;&#x30D9;&#x30EB;&#x3068;&#x4E00;&#x81F4;&#x3057;&#x307E;&#x3059;&#x3002;</p>
+<pre><code># h1&#x898B;&#x51FA;&#x3057;
+
+## h2&#x898B;&#x51FA;&#x3057;
+
+### h3&#x898B;&#x51FA;&#x3057;
+</code></pre><blockquote>
+<p>Markdown&#x306E;&#x6A5F;&#x80FD;&#x3068;&#x3057;&#x3066;&#x3001;atx&#x5F62;&#x5F0F;&#x3092;&#x300C;&#x9589;&#x3058;&#x308B;&#x300D;&#x3053;&#x3068;&#x304C;&#x3067;&#x304D;&#x307E;&#x3059;&#x3002;&#x3057;&#x304B;&#x3057;&#x3001;&#x4F7F;&#x3046;&#x3069;&#x3046;&#x304B;&#x306F;&#x597D;&#x307F;&#x306E;&#x554F;&#x984C;&#x3067;&#x3059;&#x3002;&#x306A;&#x304F;&#x3066;&#x3082;&#x554F;&#x984C;&#x306F;&#x3042;&#x308A;&#x307E;&#x305B;&#x3093;&#x3002;#&#x306E;&#x6570;&#x306F;&#x884C;&#x982D;&#x3068;&#x4E00;&#x81F4;&#x3059;&#x308B;&#x5FC5;&#x8981;&#x306F;&#x3042;&#x308A;&#x307E;&#x305B;&#x3093;&#x3002;</p>
+</blockquote>
+<pre><code># h1&#x898B;&#x51FA;&#x3057; #
+
+## h2&#x898B;&#x51FA;&#x3057; ##
+
+### h3&#x898B;&#x51FA;&#x3057; ######
+</code></pre><h2 id="&#x5F15;&#x7528;">&#x5F15;&#x7528;</h2>
+<p>Markdown&#x3067;&#x5F15;&#x7528;&#x3092;&#x4F7F;&#x3046;&#x306B;&#x306F;&quot;&gt;&quot;&#x3092;&#x4F7F;&#x3044;&#x307E;&#x3059;&#x3002;&#x5F15;&#x7528;&#x3057;&#x305F;&#x3044;&#x884C;&#x306E;&#x884C;&#x982D;&#x306B;&gt;&#x3092;&#x3064;&#x3051;&#x308B;&#x307E;&#x3059;&#x3002;</p>
+<pre><code>&gt; hogehoge
+&gt; hogehogehgoe
+&gt;
+&gt; foo
+</code></pre><p>&#x5404;&#x306E;&#x6BB5;&#x843D;&#x306E;&#x982D;&#x306B;&gt;&#x3092;&#x3064;&#x3051;&#x308B;&#x3060;&#x3051;&#x3067;&#x3082;&#x826F;&#x3044;&#x3067;&#x3059;&#x3002;</p>
+<pre><code>&gt; hogehogehgoe
+barbarbarbar
+foofoofoo
+
+&gt; hellohellohello
+beybeybey
+</code></pre><p>&gt;&#x3092;&#x91CD;&#x306D;&#x308B;&#x3068;&#x5F15;&#x7528;&#x3092;&#x5165;&#x308C;&#x5B50;&#x306B;&#x3059;&#x308B;&#x3053;&#x3068;&#x3082;&#x3067;&#x304D;&#x307E;&#x3059;&#x3002;</p>
+<pre><code>&gt; &gt; &#x5165;&#x308C;&#x5B50;&#x3067;&#x3059;
+</code></pre><p>&#x5F15;&#x7528;&#x306E;&#x4E2D;&#x306F;Markdown&#x306E;&#x30EB;&#x30FC;&#x30EB;&#x3067;&#x8A18;&#x8FF0;&#x3067;&#x304D;&#x307E;&#x3059;&#x3002;&#x898B;&#x51FA;&#x3057;&#x3082;&#x30EA;&#x30B9;&#x30C8;&#x3082;&#x8A8D;&#x8B58;&#x3057;&#x307E;&#x3059;&#x3002;</p>
+<pre><code>&gt; ### hey
+&gt;
+&gt; 1. zap
+</code></pre><h2 id="&#x30EA;&#x30B9;&#x30C8;">&#x30EA;&#x30B9;&#x30C8;</h2>
+<p>Markdown&#x306F;&#x756A;&#x53F7;&#x4ED8;&#x304D;&#x3084;&#x5370;&#x4ED8;&#x304D;&#x306E;&#x30EA;&#x30B9;&#x30C8;&#x4F7F;&#x3046;&#x3053;&#x3068;&#x304C;&#x3067;&#x304D;&#x307E;&#x3059;&#x3002;
+&#x5370;&#x4ED8;&#x304D;&#x306E;&#x30EA;&#x30B9;&#x30C8;&#x306E;&#x5834;&#x5408;&#x306F;&#x30A2;&#x30B9;&#x30BF;&#x30EA;&#x30B9;&#x30AF;&#x3084;&#x30D7;&#x30E9;&#x30B9;&#x8A18;&#x53F7;&#x3001;&#x30CF;&#x30A4;&#x30D5;&#x30F3;&#x8A18;&#x53F7;&#x3092;&#x4F7F;&#x7528;&#x3057;&#x307E;&#x3059;&#x3002;&#x81EA;&#x7531;&#x306B;&#x4F7F;&#x3044;&#x5206;&#x3051;&#x308B;&#x3053;&#x3068;&#x304C;&#x53EF;&#x80FD;&#x3067;&#x3059;&#x3002;</p>
+<pre><code>* hoge
+* foo
+* bar
+</code></pre><pre><code>+ hgoe
++ foo
++ bar
+</code></pre><pre><code>- hoge
+- foo
+- bar
+</code></pre><pre><code>1. hoeg
+2. foo
+3. bar
+</code></pre><h2 id="&#x30BD;&#x30FC;&#x30B9;&#x30B3;&#x30FC;&#x30C9;&#x8868;&#x73FE;&#xFF08;&#x30B3;&#x30FC;&#x30C9;&#x30D6;&#x30ED;&#x30C3;&#x30AF;&#xFF09;">&#x30BD;&#x30FC;&#x30B9;&#x30B3;&#x30FC;&#x30C9;&#x8868;&#x73FE;&#xFF08;&#x30B3;&#x30FC;&#x30C9;&#x30D6;&#x30ED;&#x30C3;&#x30AF;&#xFF09;</h2>
+<p>&#x30D7;&#x30ED;&#x30B0;&#x30E9;&#x30E0;&#x306E;&#x30BD;&#x30FC;&#x30B9;&#x30B3;&#x30FC;&#x30C9;&#x306A;&#x3069;&#x3092;&#x305D;&#x306E;&#x307E;&#x307E;&#x8868;&#x793A;&#x3057;&#x305F;&#x3044;&#x5834;&#x5408;&#x306B;&#x4F7F;&#x7528;&#x3057;&#x307E;&#x3059;&#x3002;&#x3053;&#x308C;&#x304C;&#x66F8;&#x304B;&#x308C;&#x305F;&#x7BC4;&#x56F2;&#x306F;&#x3001;&#x901A;&#x5E38;&#x306E;&#x6587;&#x7AE0;&#x306B;&#x3088;&#x308B;&#x6BB5;&#x843D;&#x3068;&#x306F;&#x7570;&#x306A;&#x308A;<strong>&#x66F8;&#x304B;&#x308C;&#x305F;&#x901A;&#x308A;&#x306B;&#x89E3;&#x91C8;&#x3055;&#x308C;&#x307E;&#x3059;</strong>&#x3002;</p>
+<p>Markdown&#x3067;&#x30B3;&#x30FC;&#x30C9;&#x30D6;&#x30ED;&#x30C3;&#x30AF;&#x3092;&#x66F8;&#x304F;&#x306B;&#x306F;&#x5358;&#x7D14;&#x306B;&#x5404;&#x884C;&#x306E;&#x5192;&#x982D;&#x306B;4&#x3064;&#x4EE5;&#x4E0A;&#x306E;&#x30B9;&#x30DA;&#x30FC;&#x30B9;&#x3082;&#x3057;&#x304F;&#x306F;1&#x3064;&#x4EE5;&#x4E0A;&#x306E;&#x30BF;&#x30D6;&#x3092;&#x633F;&#x5165;&#x3057;&#x307E;&#x3059;&#x3002;</p>
+<pre><code>  &#x3053;&#x308C;&#x306F;&#x884C;&#x982D;&#x306B;&#x30BF;&#x30D6;&#x304C;&#x3044;&#x307E;&#x3059;
+    &#x3053;&#x308C;&#x306F;&#x884C;&#x982D;&#x306B;&#x30B9;&#x30DA;&#x30FC;&#x30B9;&#x304C;&#x3044;&#x307E;&#x3059;
+</code></pre><blockquote>
+<p>&#x901A;&#x5E38;Markdown&#x306E;&#x8A18;&#x8FF0;&#x30EB;&#x30FC;&#x30EB;&#x306F;&#x30B3;&#x30FC;&#x30C9;&#x30D6;&#x30ED;&#x30C3;&#x30AF;&#x4E2D;&#x3067;&#x306F;&#x7121;&#x52B9;&#x306B;&#x306A;&#x308A;&#x307E;&#x3059;&#x3002;</p>
+</blockquote>
+<h2 id="&#x30BD;&#x30FC;&#x30B9;&#x30B3;&#x30FC;&#x30C9;&#x8868;&#x73FE;&#xFF08;&#x30B3;&#x30FC;&#x30C9;&#x7247;&#xFF09;">&#x30BD;&#x30FC;&#x30B9;&#x30B3;&#x30FC;&#x30C9;&#x8868;&#x73FE;&#xFF08;&#x30B3;&#x30FC;&#x30C9;&#x7247;&#xFF09;</h2>
+<p>&#x30BD;&#x30FC;&#x30B9;&#x30B3;&#x30FC;&#x30C9;&#x306E;&#x65AD;&#x7247;&#x3092;&#x8A18;&#x8FF0;&#x3059;&#x308B;&#x306B;&#x306F;&#x30D0;&#x30C3;&#x30AF;&#x30AF;&#x30A9;&#x30FC;&#x30C8;&#xFF08;`&#xFF09;&#x3067;&#x56F2;&#x307F;&#x307E;&#x3059;&#x3002;&#x30BD;&#x30FC;&#x30B9;&#x30B3;&#x30FC;&#x30C9;&#x30D6;&#x30ED;&#x30C3;&#x30AF;&#x3068;&#x306F;&#x9055;&#x3044;&#x3001;&#x30B3;&#x30FC;&#x30C9;&#x306E;&#x65AD;&#x7247;&#x306E;&#x8A18;&#x8FF0;&#x306F;&#x901A;&#x5E38;&#x306E;&#x6BB5;&#x843D;&#x5185;&#x3067;&#x884C;&#x3044;&#x307E;&#x3059;&#x3002;</p>
+<pre><code>hoge `print()` foo
+</code></pre><p>&#x30B3;&#x30FC;&#x30C9;&#x4E2D;&#x3067;&#x30D0;&#x30C3;&#x30AF;&#x30AF;&#x30A9;&#x30FC;&#x30C8;&#x3092;&#x6587;&#x5B57;&#x3068;&#x3057;&#x3066;&#x8868;&#x73FE;&#x3059;&#x308B;&#x5834;&#x5408;&#x306F;&#x3001;&#x56F2;&#x3080;&#x30D0;&#x30C3;&#x30AF;&#x30AF;&#x30A9;&#x30FC;&#x30C8;&#x3092;&#x8907;&#x6570;&#x306B;&#x3059;&#x308B;&#x3053;&#x3068;&#x3067;&#x8868;&#x73FE;&#x3067;&#x304D;&#x307E;&#x3059;&#x3002;</p>
+<pre><code>`` hoge`foo ``
+</code></pre><h2 id="&#x7F6B;&#x7DDA;">&#x7F6B;&#x7DDA;</h2>
+<p>3&#x3064;&#x4EE5;&#x4E0A;&#x306E;&#x30CF;&#x30A4;&#x30D5;&#x30F3;&#x3084;&#x30A2;&#x30B9;&#x30BF;&#x30EA;&#x30B9;&#x30AF;&#x3001;&#x30A2;&#x30F3;&#x30C0;&#x30FC;&#x30B9;&#x30B3;&#x30A2;&#x3060;&#x3051;&#x3067;&#x69CB;&#x6210;&#x3055;&#x308C;&#x3066;&#x3044;&#x308B;&#x884C;&#x306F;&#x7F6B;&#x7DDA;&#x3068;&#x306A;&#x308A;&#x307E;&#x3059;&#x3002;&#x307E;&#x305F;&#x3001;&#x3053;&#x308C;&#x3089;&#x306E;&#x8A18;&#x53F7;&#x306E;&#x9593;&#x306B;&#x306F;&#x534A;&#x89D2;&#x30B9;&#x30DA;&#x30FC;&#x30B9;&#x3092;&#x4F7F;&#x3046;&#x3053;&#x3068;&#x304C;&#x3067;&#x304D;&#x307E;&#x3059;&#x3002;</p>
+<pre><code>* * *
+
+***
+
+*****
+
+- - -
+
+----------------------
+
+_ _ _
+</code></pre><h2 id="&#x30EA;&#x30F3;&#x30AF;">&#x30EA;&#x30F3;&#x30AF;</h2>
+<p>Markdown&#x306F;&#x76F4;&#x63A5;&#x30EA;&#x30F3;&#x30AF;&#x3068;&#x53C2;&#x7167;&#x30EA;&#x30F3;&#x30AF;&#x306E;2&#x3064;&#x3092;&#x30B5;&#x30DD;&#x30FC;&#x30C8;&#x3057;&#x3066;&#x3044;&#x307E;&#x3059;&#x3002;&#x3069;&#x3061;&#x3089;&#x306B;&#x3064;&#x3044;&#x3066;&#x3082;&#x3001;&#x30EA;&#x30F3;&#x30AF;&#x3057;&#x305F;&#x3044;&#x6587;&#x5B57;&#x5217;&#x3092;&#x89D2;&#x62EC;&#x5F27;&quot;[&quot;&#x3068;&quot;]&quot;&#x3067;&#x56F2;&#x307F;&#x307E;&#x3059;&#x3002;</p>
+<h3 id="&#x76F4;&#x63A5;&#x30EA;&#x30F3;&#x30AF;">&#x76F4;&#x63A5;&#x30EA;&#x30F3;&#x30AF;</h3>
+<p>&#x76F4;&#x63A5;&#x30EA;&#x30F3;&#x30AF;&#x3092;&#x4F5C;&#x6210;&#x3059;&#x308B;&#x305F;&#x3081;&#x306B;&#x306F;&#x3001;&#x89D2;&#x62EC;&#x5F27;&#x3067;&#x56F2;&#x3093;&#x3060;&#x30EA;&#x30F3;&#x30AF;&#x6587;&#x5B57;&#x5217;&#x306E;&#x76F4;&#x5F8C;&#x306B;&#x4E38;&#x62EC;&#x5F27;&quot;(&quot;&#x3068;&quot;)&quot;&#x3092;&#x8A2D;&#x7F6E;&#x3057;&#x307E;&#x3059;&#x3002;&#x4E38;&#x62EC;&#x5F27;&#x306E;&#x5185;&#x90E8;&#x3067;&#x306F;&#x3001;&#x30EA;&#x30F3;&#x30AF;&#x5148;&#x306E;URL&#x3092;&#x8A18;&#x8FF0;&#x3057;&#x307E;&#x3059;&#x3002;&quot;&quot;&#xFF08;&#x30C0;&#x30D6;&#x30EB;&#x30B3;&#x30FC;&#x30C8;&#xFF09;&#x3067;&#x56F2;&#x3080;&#x3053;&#x3068;&#x306B;&#x3088;&#x3063;&#x3066;&#x30EA;&#x30F3;&#x30AF;&#x306B;&#x30DE;&#x30A6;&#x30B9;&#x30AA;&#x30FC;&#x30D0;&#x30FC;&#x3059;&#x308B;&#x3068;&#x8868;&#x793A;&#x3055;&#x308C;&#x308B;&#x30EA;&#x30F3;&#x30AF;&#x5148;&#x306E;&#x30BF;&#x30A4;&#x30C8;&#x30EB;&#x3092;&#x8FFD;&#x52A0;&#x3059;&#x308B;&#x3053;&#x3068;&#x3082;&#x3067;&#x304D;&#x307E;&#x3059;&#x3002;</p>
+<pre><code>hoge [example](http://example.com &quot;title&quot;)
+
+[example](http://example.com)
+</code></pre><blockquote>
+<p>&#x540C;&#x3058;&#x30B5;&#x30FC;&#x30D0;&#x5185;&#x306E;&#x30D5;&#x30A1;&#x30A4;&#x30EB;&#x306B;&#x30A2;&#x30AF;&#x30BB;&#x30B9;&#x3059;&#x308B;&#x306E;&#x3067;&#x3042;&#x308C;&#x3070;&#x76F8;&#x5BFE;&#x30D1;&#x30B9;&#x3067;&#x6307;&#x5B9A;&#x3059;&#x308B;&#x3053;&#x3068;&#x3082;&#x3067;&#x304D;&#x307E;&#x3059;</p>
+</blockquote>
+<h3 id="&#x53C2;&#x7167;&#x30EA;&#x30F3;&#x30AF;">&#x53C2;&#x7167;&#x30EA;&#x30F3;&#x30AF;</h3>
+<p>&#x53C2;&#x7167;&#x30EA;&#x30F3;&#x30AF;&#x306F;&#x30EA;&#x30F3;&#x30AF;&#x3057;&#x305F;&#x3044;&#x6587;&#x5B57;&#x5217;&#x3092;&#x89D2;&#x62EC;&#x5F27;&#x3067;&#x56F2;&#x3080;&#x306E;&#x306B;&#x52A0;&#x3048;&#x3066;&#x3001;&#x3055;&#x3089;&#x306B;&#x30EA;&#x30F3;&#x30AF;ID&#x3092;&#x89D2;&#x62EC;&#x5F27;&#x3067;&#x56F2;&#x307F;&#x307E;&#x3059;&#x3002;&#x305D;&#x3057;&#x3066;&#x3001;&#x6587;&#x4E2D;&#x306E;&#x3069;&#x3053;&#x3067;&#x3082;&#x826F;&#x3044;&#x306E;&#x3067;&#x3001;&#x3053;&#x306E;ID&#x306B;&#x5BFE;&#x3059;&#x308B;&#x30EA;&#x30F3;&#x30AF;&#x3092;&#x8A18;&#x8FF0;&#x3057;&#x307E;&#x3059;&#x3002;</p>
+<pre><code>hoge [example][id]
+
+[id]: http://example.com &quot;title&quot;
+</code></pre><blockquote>
+<p>&#x30EA;&#x30F3;&#x30AF;URL&#x306F;&#x30A2;&#x30F3;&#x30B0;&#x30EB;&#x30D6;&#x30E9;&#x30B1;&#x30C3;&#x30C8;&#xFF08;&quot;&lt;&quot;&quot;&gt;&quot;&#x306E;&#x3053;&#x3068;&#xFF09;&#x3067;&#x56F2;&#x3080;&#x3053;&#x3068;&#x304C;&#x3067;&#x304D;&#x307E;&#x3059;&#x3002;</p>
+</blockquote>
+<h2 id="&#x5F37;&#x8ABF;">&#x5F37;&#x8ABF;</h2>
+<p>Markdown&#x3067;&#x306F;&#x30A2;&#x30B9;&#x30BF;&#x30EA;&#x30B9;&#x30AF;&#x3084;&#x30A2;&#x30F3;&#x30C0;&#x30FC;&#x30B9;&#x30B3;&#x30A2;&#x306F;&#x5F37;&#x8ABF;&#x8A18;&#x53F7;&#x3068;&#x3057;&#x3066;&#x6271;&#x308F;&#x308C;&#x307E;&#x3059;&#x3002;1&#x3064;&#x306E;<em>&#x3084;_&#x306B;&#x3088;&#x3063;&#x3066;&#x56F2;&#x307E;&#x308C;&#x305F;&#x6587;&#x5B57;&#x5217;&#x306F;&#x3001;em&#x30BF;&#x30B0;&#x3067;&#x56F2;&#x307E;&#x308C;&#x305F;&#x3082;&#x306E;&#x3068;&#x540C;&#x3058;&#x306B;&#x306A;&#x308A;&#x307E;&#x3059;&#x3002;<br>
+2&#x3064;&#x306E;</em>&#x3084;_&#x306B;&#x56F2;&#x307E;&#x308C;&#x305F;&#x6587;&#x5B57;&#x5217;&#x306F;strong&#x30BF;&#x30B0;&#x3067;&#x56F2;&#x307E;&#x308C;&#x305F;&#x3082;&#x306E;&#x306B;&#x5909;&#x66F4;&#x3055;&#x308C;&#x307E;&#x3059;&#x3002;</p>
+<pre><code>*em&#x30BF;&#x30B0;&#x3068;&#x540C;&#x3058;*
+
+_em&#x30BF;&#x30B0;&#x3068;&#x540C;&#x3058;_
+
+**strong&#x30BF;&#x30B0;&#x3068;&#x540C;&#x3058;**
+
+__strong&#x30BF;&#x30B0;&#x3068;&#x540C;&#x3058;__
+</code></pre><blockquote>
+<p>&#x5F37;&#x8ABF;&#x30B9;&#x30BF;&#x30A4;&#x30EB;&#x306F;&#x5358;&#x8A9E;&#x306E;&#x9014;&#x4E2D;&#x306B;&#x3082;&#x4F7F;&#x3048;&#x307E;&#x3059;</p>
+<p>&#x6587;&#x5B57;&#x3068;&#x3057;&#x3066;*&#x3084;_&#x3092;&#x8868;&#x793A;&#x3057;&#x305F;&#x3044;&#x5834;&#x5408;&#x306F;&#x76F4;&#x524D;&#x306B;&#x30D0;&#x30C3;&#x30AF;&#x30B9;&#x30E9;&#x30C3;&#x30B7;&#x30E5;&#xFF08;&#x5186;&#x8A18;&#x53F7;&#xFF09;&#x3092;&#x8A18;&#x8FF0;&#x3057;&#x3066;&#x304F;&#x3060;&#x3055;&#x3044;</p>
+</blockquote>
+<h2 id="&#x753B;&#x50CF;">&#x753B;&#x50CF;</h2>
+<p>Markdown&#x306F;&#x753B;&#x50CF;&#x306B;&#x95A2;&#x3059;&#x308B;&#x30EB;&#x30FC;&#x30EB;&#x306F;&#x30EA;&#x30F3;&#x30AF;&#x306B;&#x95A2;&#x3059;&#x308B;&#x30EB;&#x30FC;&#x30EB;&#x306B;&#x8FD1;&#x3044;&#x5F62;&#x3067;&#x6271;&#x3044;&#x307E;&#x3059;&#x3002;&#x3064;&#x307E;&#x308A;&#x3001;&#x76F4;&#x63A5;&#x3068;&#x53C2;&#x7167;&#x3068;&#x3044;&#x3046;2&#x3064;&#x306E;&#x5F62;&#x5F0F;&#x3092;&#x30B5;&#x30DD;&#x30FC;&#x30C8;&#x3057;&#x307E;&#x3059;&#x3002;</p>
+<blockquote>
+<p>Markdown&#x3067;&#x306F;&#x753B;&#x50CF;&#x30EA;&#x30F3;&#x30AF;&#x306E;&#x969B;&#x306B;&#x5927;&#x304D;&#x3055;&#x3092;&#x6307;&#x5B9A;&#x3067;&#x304D;&#x307E;&#x305B;&#x3093;&#x3002;&#x3082;&#x3057;&#x4F7F;&#x7528;&#x3057;&#x305F;&#x3044;&#x5834;&#x5408;&#x306F;<code>&lt;img&gt;</code>&#x30BF;&#x30B0;&#x3092;&#x4F7F;&#x7528;&#x3057;&#x3066;&#x304F;&#x3060;&#x3055;&#x3044;&#x3002;</p>
+</blockquote>
+<h3 id="&#x76F4;&#x63A5;&#x30EA;&#x30F3;&#x30AF;&#xFF08;&#x753B;&#x50CF;&#xFF09;">&#x76F4;&#x63A5;&#x30EA;&#x30F3;&#x30AF;&#xFF08;&#x753B;&#x50CF;&#xFF09;</h3>
+<pre><code>![Alt text](/path/to/image.jpg)
+
+![Alt text](path/to/image.jpg &quot;title&quot;)
+</code></pre><h3 id="&#x53C2;&#x7167;&#x30EA;&#x30F3;&#x30AF;&#xFF08;&#x753B;&#x50CF;&#xFF09;">&#x53C2;&#x7167;&#x30EA;&#x30F3;&#x30AF;&#xFF08;&#x753B;&#x50CF;&#xFF09;</h3>
+<pre><code>![Alt text][id]
+
+[id]: url/to/image &quot;title&quot;
+</code></pre><h2 id="&#x81EA;&#x52D5;&#x30EA;&#x30F3;&#x30AF;">&#x81EA;&#x52D5;&#x30EA;&#x30F3;&#x30AF;</h2>
+<p>Markdown&#x306F;URL&#x3084;&#x30E1;&#x30FC;&#x30EB;&#x30A2;&#x30C9;&#x30EC;&#x30B9;&#x3078;&#x306E;&#x81EA;&#x52D5;&#x30EA;&#x30F3;&#x30AF;&#x3092;&#x30B5;&#x30DD;&#x30FC;&#x30C8;&#x3057;&#x3066;&#x3044;&#x307E;&#x3059;&#x3002;URL&#x3084;&#x30E1;&#x30FC;&#x30EB;&#x30A2;&#x30C9;&#x30EC;&#x30B9;&#x3092;&#x30A2;&#x30F3;&#x30B0;&#x30EB;&#x30D6;&#x30E9;&#x30B1;&#x30C3;&#x30C8;&#x3067;&#x56F2;&#x3080;&#x3060;&#x3051;&#x3067;&#x3059;&#x3002;</p>
+<pre><code>&lt;http://example.com&gt;
+</code></pre><h2 id="&#x30D0;&#x30C3;&#x30AF;&#x30B9;&#x30E9;&#x30C3;&#x30B7;&#x30E5;&#xFF08;&#x5186;&#x8A18;&#x53F7;&#xFF09;&#x306B;&#x3088;&#x308B;&#x30A8;&#x30B9;&#x30B1;&#x30FC;&#x30D7;">&#x30D0;&#x30C3;&#x30AF;&#x30B9;&#x30E9;&#x30C3;&#x30B7;&#x30E5;&#xFF08;&#x5186;&#x8A18;&#x53F7;&#xFF09;&#x306B;&#x3088;&#x308B;&#x30A8;&#x30B9;&#x30B1;&#x30FC;&#x30D7;</h2>
+<p>Markdown&#x306E;&#x30EB;&#x30FC;&#x30EB;&#x4E0A;&#x7279;&#x5225;&#x306A;&#x610F;&#x5473;&#x3092;&#x6301;&#x3064;&#x8A18;&#x53F7;&#x3084;&#x6587;&#x5B57;&#x3092;&#x305D;&#x306E;&#x307E;&#x307E;&#x8868;&#x73FE;&#x3059;&#x308B;&#x5834;&#x5408;&#x306B;&#x30D0;&#x30C3;&#x30AF;&#x30B9;&#x30E9;&#x30C3;&#x30B7;&#x30E5;&#x3092;&#x4F7F;&#x7528;&#x3059;&#x308B;&#x3053;&#x3068;&#x306B;&#x3088;&#x3063;&#x3066;&#x56DE;&#x907F;&#x3067;&#x304D;&#x307E;&#x3059;&#x3002;</p>
+<p>Markdown&#x3067;&#x306F;&#x4EE5;&#x4E0B;&#x306E;&#x6587;&#x5B57;&#x306B;&#x3064;&#x3044;&#x3066;&#x3001;&#x30D0;&#x30C3;&#x30AF;&#x30B9;&#x30E9;&#x30C3;&#x30B7;&#x30E5;&#x306B;&#x3088;&#x308B;&#x30A8;&#x30B9;&#x30B1;&#x30FC;&#x30D7;&#x304C;&#x53EF;&#x80FD;&#x3067;&#x3059;&#x3002;</p>
+<ul>
+<li>&#xFFE5; backslash</li>
+<li>` backtick</li>
+<li>* asterisk</li>
+<li>_ underscore</li>
+<li>{} curly braces</li>
+<li>[] square brackets</li>
+<li>() parentheses</li>
+<li># hash mark</li>
+<li>+ plus sign</li>
+<li>- minus sign(hyphen)</li>
+<li>. dot</li>
+<li>! exclamation mark</li>
+</ul>
+<h2 id="&#x305D;&#x306E;&#x4ED6;&#x306E;&#x30EB;&#x30FC;&#x30EB;">&#x305D;&#x306E;&#x4ED6;&#x306E;&#x30EB;&#x30FC;&#x30EB;</h2>
+<p>Markdown&#x306E;&#x30EB;&#x30FC;&#x30EB;&#x3067;&#x4F7F;&#x7528;&#x3067;&#x304D;&#x306A;&#x3044;&#x90E8;&#x5206;&#x306B;&#x3064;&#x3044;&#x3066;&#x306F;&#x7D20;&#x76F4;&#x306B;HTML&#x30BF;&#x30B0;&#x3092;&#x4F7F;&#x7528;&#x3057;&#x3066;&#x304F;&#x3060;&#x3055;&#x3044;&#x3002;</p>
+<p>&#x552F;&#x4E00;&#x3001;<code>&lt;div&gt;</code>&#x3001;<code>&lt;table&gt;</code>&#x3001;<code>&lt;pre&gt;</code>&#x3001;<code>&lt;p&gt;</code>&#x306A;&#x3069;&#x306E;&#x30D6;&#x30ED;&#x30C3;&#x30AF;&#x30BF;&#x30B0;&#x3092;&#x4F7F;&#x7528;&#x3059;&#x308B;&#x3068;&#x304D;&#x306B;&#x306F;&#x30EB;&#x30FC;&#x30EB;&#x304C;&#x3042;&#x308A;&#x307E;&#x3059;&#x3002;<br>
+&#x3053;&#x308C;&#x3089;&#x306E;&#x30BF;&#x30B0;&#x3067;&#x56F2;&#x307E;&#x308C;&#x305F;&#x524D;&#x5F8C;&#x306F;&#x7A7A;&#x884C;&#x3067;&#x306A;&#x3051;&#x308C;&#x3070;&#x306A;&#x308A;&#x307E;&#x305B;&#x3093;&#x3002;&#x66F4;&#x306B;&#x3053;&#x308C;&#x3089;&#x306E;&#x30BF;&#x30B0;&#x306F;&#x884C;&#x982D;&#x306B;&#x7F6E;&#x304B;&#x306A;&#x3051;&#x308C;&#x3070;&#x306A;&#x308A;&#x307E;&#x305B;&#x3093;&#x3002;&#x30BF;&#x30B0;&#x306E;&#x524D;&#x306B;&#x30B9;&#x30FC;&#x30DA;&#x30B9;&#x3084;&#x30BF;&#x30D6;&#x3092;&#x8A18;&#x8FF0;<strong>&#x3057;&#x306A;&#x3044;</strong>&#x3067;&#x304F;&#x3060;&#x3055;&#x3044;&#x3002;</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="chapter2.html" class="navigation navigation-prev " aria-label="Previous page: Markdownとは">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="chapter4.html" class="navigation navigation-next " aria-label="Next page: GFM(GitHub Flavored Markdown)">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Markdownの基本書式","level":"1.4","depth":1,"next":{"title":"GFM(GitHub Flavored Markdown)","level":"1.5","depth":1,"path":"chapter4.md","ref":"chapter4.md","articles":[]},"previous":{"title":"Markdownとは","level":"1.3","depth":1,"path":"chapter2.md","ref":"chapter2.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["forkmegithub"],"pluginsConfig":{"forkmegithub":{"color":"gray","url":"https://github.com/iti-group/markdown_manual"},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"chapter3.md","mtime":"2017-02-13T12:32:44.728Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-02-15T02:50:13.304Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-forkmegithub/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
